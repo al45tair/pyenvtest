@@ -2,7 +2,6 @@ language: python
 
 install:
   - |
-    echo "Home is $HOME"
     pip install --upgrade pip
     pip install --egg pyenv
     export PATH=~/.pyenv/bin:$PATH
@@ -11,6 +10,6 @@ install:
 
 os:       osx
 language: generic
-env:      PYTHON_VERSION=2.7.2
+env:      PYTHON_VERSION=3.6.2
 
 script:   true
