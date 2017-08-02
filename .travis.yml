@@ -1,7 +1,8 @@
 language: python
 
 install:
-  - echo "Home is $HOME"
+  - |
+    echo "Home is $HOME"
     pip install --upgrade pip
     pip install --egg pyenv
 
