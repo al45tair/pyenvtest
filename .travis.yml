@@ -2,6 +2,8 @@ language: python
 
 install:
   - |
+    uname -s
+    uname -r
     pip install --upgrade pip
     pip install --egg pyenv
     export PATH=~/.pyenv/bin:$PATH
