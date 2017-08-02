@@ -1,7 +1,7 @@
 language: python
 
 install:
-  - pip install --egg penv
+  - pip install --egg pyenv
 
 os:       osx
 language: generic
