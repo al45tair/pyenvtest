@@ -14,4 +14,4 @@ os:       osx
 language: generic
 env:      PYTHON_VERSION=2.7.1
 
-script:   pyenv versions
+script:   pyenv versions && python --version
