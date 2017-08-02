@@ -1,0 +1,10 @@
+language: python
+
+install:
+  - pip install --egg penv
+
+os:       osx
+language: generic
+env:      PYTHON_VERSION=2.7.2
+
+script:   true
