@@ -1,7 +1,9 @@
 language: python
 
 install:
-  - pip install --egg pyenv
+  - echo "Home is $HOME"
+    pip install --upgrade pip
+    pip install --egg pyenv
 
 os:       osx
 language: generic
